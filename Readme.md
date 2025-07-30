@@ -98,7 +98,7 @@ This script has following functionality:
 
 ### Training Process
 
-![Alt text](image.png)
+![Alt text](./Results/Training.png)
 
 Model was trained on tiny_shakespeare.txt dataset .
 
@@ -111,7 +111,7 @@ final loss stood at 0.0720 , indicating a well trained model.
 Model parameters were successfully saved after training.
 
 ### Inference results 
-![Alt text](image-1.png)
+![Alt text](./Results/TextGeneration.png)
 
 Above is what model generated when provided with prompt "Once upon a time" 
 
@@ -121,7 +121,7 @@ Generated text: "once upon a time to blaze your marriage fit for the year how sh
 The generated text shows model's ability to produce grammatically correct and contextually relevant sequence of words.
 
 ### Attention visualization:
-![Alt text](image-2.png)
+![Alt text](./Results/Attention_Visualization.png)
 
 
 The visualization provides insights into how the model processes inputs.
