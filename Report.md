@@ -29,7 +29,7 @@ For the Tiny Shakespeare dataset, we experimented with both tokenization methods
 
 The issue with character-level tokenization is that it cannot satisfy the required model parameter range of **5–10 million**, even when using the largest architecture paramerts mentioned in project requirement. This is because the vocabulary only contains **37 characters**, including special tokens like `<PAD>` and `<UNK>`.
 
-![Alt text](<TotalModelParam-With CharLevelTokenizationUsed.png>)
+![Alt text](<./Results/TotalModelParam-With CharLevelTokenizationUsed.png>)
 
 ### Transformer Model Parameters Calculation (Using Character-Level Vocab)
 
